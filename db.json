@@ -1,14 +1,1108 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Recommandation": {
+        "Investissement": [
+            619.58,
+            1239.17,
+            1858.75,
+            2478.33,
+            3883.37,
+            5288.4,
+            6693.43,
+            8098.47
+        ],
+        "product": {
+            "Blé bour": [
+                926.8,
+                3035.2,
+                5140.8,
+                7246.4,
+                12023.2,
+                0,
+                0,
+                0
+            ],
+            "Blé irrigué": [
+                1144.6,
+                3531.15,
+                5917.7,
+                8304.25,
+                13717.5,
+                19130.75,
+                0,
+                0
+            ],
+            "Fêve": [
+                1420,
+                4090,
+                6760,
+                9430,
+                0,
+                0,
+                0,
+                0
+            ],
+            "Oignion": [
+                5960,
+                18720,
+                31480,
+                44240,
+                73180,
+                102120,
+                131060,
+                160000
+            ],
+            "Orge bour": [
+                644,
+                1986.6,
+                3329.2,
+                4671.8,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "bags": [
+        {
+            "Couverture factor": 0.3525899393939395,
+            "Factor": 1.8933172831765934,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 2.98,
+            "crop": "Oignion",
+            "gain": 5960,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 619.7779878787878,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.6747992727272728,
+            "Factor": 3.8076211912225704,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 9.36,
+            "crop": "Oignion",
+            "gain": 18720,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1239.2798545454546,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.9970086060606057,
+            "Factor": 5.721890616509927,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 15.74,
+            "crop": "Oignion",
+            "gain": 31480,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1858.781721212121,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.3192179393939396,
+            "Factor": 7.636160041797283,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 22.12,
+            "crop": "Oignion",
+            "gain": 44240,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 2478.283587878788,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 2.0499967878787886,
+            "Factor": 11.977140146290491,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 36.59,
+            "crop": "Oignion",
+            "gain": 73180,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 3883.3293575757575,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 2.7807756363636367,
+            "Factor": 16.318085768025078,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 51.06,
+            "crop": "Oignion",
+            "gain": 102120,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 5288.375127272728,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 3.511554484848485,
+            "Factor": 20.65903138975967,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 65.53,
+            "crop": "Oignion",
+            "gain": 131060,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 6693.4208969696965,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 4.242333333333332,
+            "Factor": 25.000011494252877,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 80,
+            "crop": "Oignion",
+            "gain": 160000,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 8098.466666666666,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.4119730454545454,
+            "Factor": 1.8523634169279,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 3.31,
+            "crop": "Blé bour",
+            "gain": 926.8000000000001,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 619.377937590909,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.9389703636363635,
+            "Factor": 3.6254342319749218,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 10.84,
+            "crop": "Blé bour",
+            "gain": 3035.2,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1239.5082467272728,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.465267818181818,
+            "Factor": 5.398953228840125,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 18.36,
+            "crop": "Blé bour",
+            "gain": 5140.8,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1858.8150096363636,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.9915652727272724,
+            "Factor": 7.172472225705328,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 25.88,
+            "crop": "Blé bour",
+            "gain": 7246.4,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 2478.1217725454544,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 3.185532636363636,
+            "Factor": 11.19401197492163,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 42.94,
+            "crop": "Blé bour",
+            "gain": 12023.199999999999,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 3883.0916362727266,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.18031818181818177,
+            "Factor": 18.111504702194356,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Blé bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 346.7841363636364,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.18031818181818177,
+            "Factor": 22.956435736677115,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Blé bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 346.7841363636364,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.18031818181818177,
+            "Factor": 27.801401253918495,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Blé bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 346.7841363636364,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.41102654545454526,
+            "Factor": 1.8530161755485897,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 3.88,
+            "crop": "Blé irrigué",
+            "gain": 1144.6,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 619.7493090909092,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.9277323939393938,
+            "Factor": 3.633184555903867,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 11.97,
+            "crop": "Blé irrigué",
+            "gain": 3531.15,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1239.2324787878788,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.4444382424242421,
+            "Factor": 5.413318453500523,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 20.06,
+            "crop": "Blé irrigué",
+            "gain": 5917.7,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1858.7156484848483,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.9611440909090905,
+            "Factor": 7.193452351097179,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 28.15,
+            "crop": "Blé irrigué",
+            "gain": 8304.25,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 2478.1988181818183,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 3.133153030303029,
+            "Factor": 11.230135841170325,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 46.5,
+            "crop": "Blé irrigué",
+            "gain": 13717.5,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 3883.330606060606,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 4.30516196969697,
+            "Factor": 15.266784848484848,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 64.85,
+            "crop": "Blé irrigué",
+            "gain": 19130.75,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 5288.462393939394,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.1632121212121212,
+            "Factor": 22.96823301985371,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Blé irrigué",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 322.6424242424242,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.1632121212121212,
+            "Factor": 27.81319853709509,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Blé irrigué",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 322.6424242424242,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.4344804848484849,
+            "Factor": 1.8368410449320796,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 2.84,
+            "crop": "Fêve",
+            "gain": 1420,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 706.336096969697,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0,
+            "Factor": 4.273000000000001,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 8.18,
+            "crop": "Fêve",
+            "gain": 4090,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1238.88,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0,
+            "Factor": 6.4094827586206895,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 13.52,
+            "crop": "Fêve",
+            "gain": 6760,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1858.32,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0,
+            "Factor": 8.54596551724138,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 18.86,
+            "crop": "Fêve",
+            "gain": 9430,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 2477.76,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.7070000000000001,
+            "Factor": 12.903344827586206,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Fêve",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 431.4,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.7070000000000001,
+            "Factor": 17.748275862068965,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Fêve",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 431.4,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.7070000000000001,
+            "Factor": 22.593206896551727,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Fêve",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 431.4,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.7070000000000001,
+            "Factor": 27.438172413793104,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Fêve",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 431.4,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.4485333333333331,
+            "Factor": 1.8271494252873568,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 4.6,
+            "crop": "Orge bour",
+            "gain": 644,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 619.8266666666666,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.0431133333333336,
+            "Factor": 3.553611494252874,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 14.19,
+            "crop": "Orge bour",
+            "gain": 1986.6,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1239.3406666666667,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 1.6376933333333334,
+            "Factor": 5.28003908045977,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 23.78,
+            "crop": "Orge bour",
+            "gain": 3329.2000000000003,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 1858.8546666666666,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 2.232273333333333,
+            "Factor": 7.006466666666667,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 33.37,
+            "crop": "Orge bour",
+            "gain": 4671.799999999999,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 2478.3686666666667,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.16333333333333336,
+            "Factor": 13.278287356321838,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Orge bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 322.6666666666667,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.16333333333333336,
+            "Factor": 18.123218390804595,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Orge bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 322.6666666666667,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.16333333333333336,
+            "Factor": 22.968149425287358,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Orge bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 322.6666666666667,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        },
+        {
+            "Couverture factor": 0.16333333333333336,
+            "Factor": 27.813114942528735,
+            "Name_Couverture_Fertilizer": "NPK 33-0-0",
+            "Name_Fond_Fertilizer": "NPK-10-20-20",
+            "Price_Couverture_Fertilizer": 200,
+            "Price_Fond_Fertilizer": 290,
+            "Produit de couverture": [
+                33,
+                0,
+                0
+            ],
+            "Reccomended product": [
+                10,
+                20,
+                20
+            ],
+            "Rendement": 0,
+            "crop": "Orge bour",
+            "gain": 0,
+            "id_Couverture_Fertilizer": 100,
+            "id_Fond_Fertilizer": 90,
+            "inv": 322.6666666666667,
+            "sku_Couverture_Fertilizer": "10000000100",
+            "sku_Fond_Fertilizer": "10000000090"
+        }
+    ]
 }
